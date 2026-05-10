@@ -18,7 +18,7 @@ export default function Home() {
           height={1333}
         />
         <div className="absolute inset-0 bg-ink/55" />
-        <div className="absolute inset-0 bg-grid-fade bg-grid bg-[length:48px_48px]" />
+        <div className="absolute inset-0 bg-grid-fade bg-[length:48px_48px]" />
         <div className="relative mx-auto flex min-h-[88vh] max-w-6xl flex-col justify-center px-4 sm:px-6">
           <p className="text-xs font-bold uppercase tracking-[0.35em] text-lime">Train loud. Move clean.</p>
           <h1 className="mt-4 max-w-4xl font-display text-6xl leading-[0.92] tracking-wide text-white sm:text-7xl md:text-8xl">
