@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ink text-white antialiased font-sans;
+  }
+  ::selection {
+    @apply bg-lime/30 text-white;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 40px rgba(196, 245, 66, 0.35);
+  }
+}
